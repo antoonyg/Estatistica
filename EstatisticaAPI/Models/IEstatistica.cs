@@ -2,12 +2,12 @@ namespace EstatisticaAPI.Models
 {
     public interface IEstatistica
     {
-        double CalcularMediana(string[] m);
-        double CalcularModa(string[] m);
-        double CalcularMedia(string[] m);
-        double CalcularMaximo(string[] m);
-        double CalcularMinimo(string[] m);
-        double CalcularMediaPonderada(string[] m);
+        double mediana(string[] m);
+        double moda(string[] m);
+        double media(string[] m);
+        double maximo(string[] m);
+        double minimo(string[] m);
+        double mediaponderada(string[] m);
         double CalcularDesvioPadrao(string[] m);
     } 
 }
