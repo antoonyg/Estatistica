@@ -1,6 +1,6 @@
 namespace EstatisticaAPI.Models
 {
-    public interface IEstatisticaFormula
+    public interface IEstatistica
     {
         double CalcularMediana(string[] m);
         double CalcularModa(string[] m);
